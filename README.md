@@ -14,3 +14,5 @@ Router send Broadcast Request. Once if a workstation(its ip addr is 192.168.1.22
 # Broadcast
 
 Then the Router broadcasts an APR req to all hosts in the same subnet. The ARP req contains the Sender's IP ,MAC addr and Targets IP addr. (Target MAC addr is wait to be resolve in this phase then)
+
+All nodes in the subnet (the broadcast domain) receive the req and process it (drop or sendback).
