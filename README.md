@@ -10,3 +10,7 @@ Host got its ARP table with a list realated to IP addr to MAC addr.
 # ARP Operation
 
 Router send Broadcast Request. Once if a workstation(its ip addr is 192.168.1.22) has to send a frame or packet to send to 192.168.1.17, however the workstation checks its ARP table, and found out that there is no DES MAC addr in its ARP table.
+
+# Broadcast
+
+Then the Router broadcasts an APR req to all hosts in the same subnet. The ARP req contains the Sender's IP ,MAC addr and Targets IP addr. (Target MAC addr is wait to be resolve in this phase then)
