@@ -19,4 +19,4 @@ All nodes in the subnet (the broadcast domain) receive the req and process it (d
 
 # Find me out (Unicast)
 
-then the device (host or GW router) with this target IP addr send ARP Reply back to the sender, the msg shows the device's MAC addr.
+then the device (host or GW router) with this target IP addr send ARP Reply back to the sender, the msg shows the device's MAC addr. By unicast, the msg sent back to 192.168.1.22. Then the sender got the DES MAC Addr, and learned it, update it to its ARP table using IP addr within relatied MAC addr.
